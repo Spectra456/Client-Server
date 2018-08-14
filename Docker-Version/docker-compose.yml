@@ -1,0 +1,14 @@
+version: '2'
+services:
+  client:
+    build: client/
+    # build: sender
+    environment:
+      SEND_HOST: server
+      SEND_PORT: 5555
+  server:
+    build: server/
+    # build: receiver
+    environment:
+      LISTEN_HOST: '0.0.0.0'
+      LISTEN_PORT: 5555
