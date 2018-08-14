@@ -20,21 +20,21 @@ Download archive and unpack it.
 $ cd Server-Client
 ```
 
-Primarily launch server application
+Primarily launch server application with default parameters
 
 ```sh
 $ cd  server
-$ python -u server_app.py 127.0.0.1 14902
+$ python -u server_app.py 
 ```
 It is default host ip and port, if necessary you can change it.
 
-After them, you can launch client application:
+After them, you can launch client application parameters:
 
 ```sh
 $ cd  client
-$ python -u client_app.py 127.0.0.1 14902
+$ python -u client_app.py 
 ```
-
+If you need change host ip and port, you can add parameters, when you server and client
 ### Using
 After launching a client, you must see this strings:
 ```sh
