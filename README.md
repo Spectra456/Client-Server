@@ -82,7 +82,7 @@ Client
 ```sh
 docker-compose --run client
 ```
-###### ATTENTION!
+#### ATTENTION!
 In docker version of application, you need enter exit in quotation marks
 ```sh
 "exit"

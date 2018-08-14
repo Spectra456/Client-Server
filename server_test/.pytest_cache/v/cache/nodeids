@@ -1,0 +1,9 @@
+[
+  "server_test.py::ServerTest::test_prime_factor_001000",
+  "server_test.py::ServerTest::test_prime_factor_1",
+  "server_test.py::ServerTest::test_prime_factor_10",
+  "server_test.py::ServerTest::test_prime_factor_111111111",
+  "server_test.py::ServerTest::test_prime_factor_4",
+  "server_test.py::ServerTest::test_prime_factor_5",
+  "server_test.py::ServerTest::test_prime_factor_maxint"
+]
